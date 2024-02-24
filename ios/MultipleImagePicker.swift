@@ -34,6 +34,7 @@ class MultipleImagePicker: NSObject, UINavigationControllerDelegate {
     var options = NSMutableDictionary()
     var videoAssets = [PHAsset]()
     var videoCount = 0
+    var isUserCancelImagePicker = false
         
     // resolve/reject assets
     var resolve: RCTPromiseResolveBlock!
@@ -314,13 +315,17 @@ extension MultipleImagePicker: TLPhotosPickerViewControllerDelegate {
     }
     
     func photoPickerDidCancel() {
+        self.isUserCancelImagePicker = true
         self.reject("PICKER_CANCELLED", "User has canceled", nil)
     }
 
     func dismissComplete() {
-        DispatchQueue.main.async {
-            self.getTopMostViewController()?.dismiss(animated: true, completion: nil)
+        if !self.isUserCancelImagePicker {
+            DispatchQueue.main.async {
+                self.getTopMostViewController()?.dismiss(animated: true, completion: nil)
+            }
         }
+        self.isUserCancelImagePicker = false
     }
     
     func presentCropViewController(image: UIImage) {
