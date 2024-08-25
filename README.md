@@ -224,13 +224,6 @@ Thanks go to these wonderful people:
 	<tbody>
 		<tr>
             <td align="center">
-                <a href="https://github.com/cd-butterfly">
-                    <img src="https://avatars.githubusercontent.com/u/6622823?v=4" width="100;" alt="cd-butterfly"/>
-                    <br />
-                    <sub><b>cd-butterfly</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/baronha">
                     <img src="https://avatars.githubusercontent.com/u/23580920?v=4" width="100;" alt="baronha"/>
                     <br />
@@ -265,20 +258,64 @@ Thanks go to these wonderful people:
                     <sub><b>Denis Bevilacqua</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/polysiya">
+                    <img src="https://avatars.githubusercontent.com/u/722173?v=4" width="100;" alt="polysiya"/>
+                    <br />
+                    <sub><b>Royd</b></sub>
+                </a>
+            </td>
 		</tr>
 		<tr>
             <td align="center">
-                <a href="https://github.com/ctrleffive">
-                    <img src="https://avatars.githubusercontent.com/u/35224957?v=4" width="100;" alt="ctrleffive"/>
+                <a href="https://github.com/cd-butterfly">
+                    <img src="https://avatars.githubusercontent.com/u/6622823?v=4" width="100;" alt="cd-butterfly"/>
                     <br />
-                    <sub><b>Chandu J S</b></sub>
+                    <sub><b>cd-butterfly</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/shafiqjefri">
-                    <img src="https://avatars.githubusercontent.com/u/126740667?v=4" width="100;" alt="shafiqjefri"/>
+                <a href="https://github.com/tuanngocptn">
+                    <img src="https://avatars.githubusercontent.com/u/22292704?v=4" width="100;" alt="tuanngocptn"/>
                     <br />
-                    <sub><b>shafiqjefri</b></sub>
+                    <sub><b>Nick - Ngoc Pham</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/hieuphan1030">
+                    <img src="https://avatars.githubusercontent.com/u/108206954?v=4" width="100;" alt="hieuphan1030"/>
+                    <br />
+                    <sub><b>hieuphan1030</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/esse1441">
+                    <img src="https://avatars.githubusercontent.com/u/66111130?v=4" width="100;" alt="esse1441"/>
+                    <br />
+                    <sub><b>esse1441</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/ouabing">
+                    <img src="https://avatars.githubusercontent.com/u/1430376?v=4" width="100;" alt="ouabing"/>
+                    <br />
+                    <sub><b>abing</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/ymane">
+                    <img src="https://avatars.githubusercontent.com/u/22021856?v=4" width="100;" alt="ymane"/>
+                    <br />
+                    <sub><b>Yogesh Mane</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/vivianlys90">
+                    <img src="https://avatars.githubusercontent.com/u/22317616?v=4" width="100;" alt="vivianlys90"/>
+                    <br />
+                    <sub><b>vivianLee</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -289,40 +326,17 @@ Thanks go to these wonderful people:
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/vivianlys90">
-                    <img src="https://avatars.githubusercontent.com/u/22317616?v=4" width="100;" alt="vivianlys90"/>
+                <a href="https://github.com/shafiqjefri">
+                    <img src="https://avatars.githubusercontent.com/u/126740667?v=4" width="100;" alt="shafiqjefri"/>
                     <br />
-                    <sub><b>vivianLee</b></sub>
+                    <sub><b>shafiqjefri</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/ymane">
-                    <img src="https://avatars.githubusercontent.com/u/22021856?v=4" width="100;" alt="ymane"/>
+                <a href="https://github.com/ctrleffive">
+                    <img src="https://avatars.githubusercontent.com/u/35224957?v=4" width="100;" alt="ctrleffive"/>
                     <br />
-                    <sub><b>Yogesh Mane</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/ouabing">
-                    <img src="https://avatars.githubusercontent.com/u/1430376?v=4" width="100;" alt="ouabing"/>
-                    <br />
-                    <sub><b>abing</b></sub>
-                </a>
-            </td>
-		</tr>
-		<tr>
-            <td align="center">
-                <a href="https://github.com/hieuphan1030">
-                    <img src="https://avatars.githubusercontent.com/u/108206954?v=4" width="100;" alt="hieuphan1030"/>
-                    <br />
-                    <sub><b>hieuphan1030</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/tuanngocptn">
-                    <img src="https://avatars.githubusercontent.com/u/22292704?v=4" width="100;" alt="tuanngocptn"/>
-                    <br />
-                    <sub><b>Nick - Ngoc Pham</b></sub>
+                    <sub><b>Chandu J S</b></sub>
                 </a>
             </td>
 		</tr>
