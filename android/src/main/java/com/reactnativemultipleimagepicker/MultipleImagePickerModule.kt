@@ -20,6 +20,9 @@ import com.luck.picture.lib.style.*
 import com.yalantis.ucrop.UCrop.Options
 import java.io.*
 import java.util.*
+import com.luck.picture.lib.R
+import com.reactnativemultipleimagepicker.R.color
+import com.reactnativemultipleimagepicker.R.drawable
 
 
 class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
@@ -161,7 +164,7 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
         // TITLE BAR
         val titleBar = TitleBarStyle()
         titleBar.titleBackgroundColor =
-                ContextCompat.getColor(appContext, R.color.app_color_white)
+                ContextCompat.getColor(appContext, color.app_color_white)
 
         titleBar.isHideCancelButton = true
         titleBar.isAlbumTitleRelativeLeft = true
@@ -175,17 +178,17 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
         // BOTTOM BAR
         val bottomBar = BottomNavBarStyle()
         bottomBar.bottomPreviewNormalTextColor =
-                ContextCompat.getColor(appContext, R.color.app_color_pri)
+                ContextCompat.getColor(appContext, color.app_color_pri)
         bottomBar.bottomPreviewSelectTextColor =
-                ContextCompat.getColor(appContext, R.color.app_color_pri)
+                ContextCompat.getColor(appContext, color.app_color_pri)
         bottomBar.bottomNarBarBackgroundColor =
                 ContextCompat.getColor(appContext, R.color.ps_color_white)
-        bottomBar.bottomSelectNumResources = R.drawable.num_oval_orange
+        bottomBar.bottomSelectNumResources = drawable.num_oval_orange
         bottomBar.bottomEditorTextColor =
                 ContextCompat.getColor(appContext, R.color.ps_color_53575e)
         bottomBar.bottomOriginalTextColor =
                 ContextCompat.getColor(appContext, R.color.ps_color_53575e)
-        bottomBar.bottomPreviewNormalTextColor = R.color.app_color_53575e
+        bottomBar.bottomPreviewNormalTextColor = color.app_color_53575e
         bottomBar.bottomPreviewNormalTextColor = Color.BLACK
         bottomBar.isCompleteCountTips = false
 
@@ -196,11 +199,11 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
         mainStyle.isSelectNumberStyle = !singleSelectedMode
         mainStyle.isPreviewSelectNumberStyle = true
         mainStyle.isSelectNumberStyle = true
-        mainStyle.selectBackground = R.drawable.picture_selector
+        mainStyle.selectBackground = drawable.picture_selector
         mainStyle.mainListBackgroundColor =
                 ContextCompat.getColor(appContext, R.color.ps_color_white)
         mainStyle.previewSelectBackground =
-                R.drawable.picture_selector
+                drawable.picture_selector
 
         // custom select text on top
         mainStyle.selectText = doneTitle
@@ -215,7 +218,7 @@ class MultipleImagePickerModule(reactContext: ReactApplicationContext) :
 
         mainStyle.statusBarColor = ContextCompat.getColor(
             appContext,
-            R.color.app_color_white
+            color.app_color_white
         )
         mainStyle.isDarkStatusBarBlack = true
 
